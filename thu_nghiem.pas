@@ -1,7 +1,7 @@
 var a:array[1..10000] of integer;
     i,n:integer;
     nhat:word;
-    procedure findMax( m: integer;b:array of integer;var max:word);
+    function findMax( m: integer;b:array of integer;var max:word);
 var
   k: integer;
 begin
